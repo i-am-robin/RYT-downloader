@@ -22,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <GoogleAnalytics measurementId="G-7CMM851EN0" />
+      <GoogleAnalytics measurementId="G-BSCMX5CPY0" />
 
       {process.env.NODE_ENV === "production" && (
         <Script
