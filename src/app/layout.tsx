@@ -26,14 +26,10 @@ export default function RootLayout({
 
       {process.env.NODE_ENV === "production" && (
         <Script
-          id="Adsense-id"
-          data-ad-client="ca-pub-4463310387942738"
-          async={true}
-          strategy="beforeInteractive"
-          onError={(e) => {
-            console.error("Script failed to load", e);
-          }}
+          id="adsbygoogle-init"
+          strategy="afterInteractive"
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4463310387942738"
+          crossOrigin="anonymous"
         />
       )}
 
